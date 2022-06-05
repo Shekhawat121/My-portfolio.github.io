@@ -48,10 +48,34 @@
     	body{
     		color: #4a5154;
     	}
+
+
+		.bottomright {
+		    position: fixed;
+		    left: 20px;
+		    bottom: 0px;
+		    width: 76px;
+		    height: 76px;
+		    padding: 5px;
+		    z-index: 9999;
+		    border-radius: 59px 59px 59px 59px;
+		    cursor: pointer;
+		}
+
+
+
+
     </style>
 
 </head>
 <body id="page-top" class="politics_version">
+<!-- <div id="chatbot" class="bottomright  btn btn-raised">
+	<div class=""></div>
+	<img src="images/chatbot.png" id="image" style="width:100%;">
+</div>
+ -->
+  
+
 
     <!-- LOADER -->
     <div id="preloader">
@@ -487,8 +511,11 @@
     </div><!-- end copyrights -->
 
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/22096963.js"></script>
+<!-- End of HubSpot Embed Code -->
 
-    <!-- ALL JS FILES -->
+
     <script src="js/all.js"></script>
 	<!-- Camera Slider -->
 	<script src="js/jquery.mobile.customized.min.js"></script>
@@ -501,6 +528,22 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
+
+<!-- 
+    <script type="text/javascript">
+    	$("#chatbot").on("click" , function () {
+
+		  $( "#chatbot" ).animate({
+		   width: "300px",
+		   height: "300px", 
+		    }, 0);
+		  $("#chatbot").css("border-radius" ,"0px 0px 0px 0px");
+	    	$("#image").css("display" , "none");
+	    	$("#chatbot").css("background-color" , "white");
+
+    	});
+
+    </script> -->
 
 </body>
 </html>
